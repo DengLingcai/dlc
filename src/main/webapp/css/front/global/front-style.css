@@ -1,0 +1,11 @@
+/**前台样式**/
+body{
+    background-color: #ffffff;
+    margin: auto;
+    width: 100% ;
+}
+
+.main-botton{
+    float: left;
+    width: 100%;
+}

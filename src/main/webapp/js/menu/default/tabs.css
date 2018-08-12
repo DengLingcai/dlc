@@ -1,0 +1,130 @@
+body {
+    font-family: Lucida Sans, Lucida Sans Unicode, Arial, Sans-Serif;
+    font-size: 13px;
+    margin: 0px auto;
+}
+
+#tabs {
+    width: 99%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow:auto;
+    margin-left: 1%;
+	width:99%; background:url(tabs.jpg); height:30px; border:1px solid #dcdcdc; border-bottom:0px;margin-top: 10px;
+}
+
+#tabs li {
+    float:left; padding:0px 15px; text-align:center; height:30px; line-height:30px; cursor: pointer; border-right:1px solid #dcdcdc;
+}
+
+#tabs li a {
+    color: #999;
+    text-decoration: none;
+}
+
+#tabs li.current {
+    background:url(tabsh.jpg);
+}
+
+#tabs li.current a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+#tabs li a.remove {
+    width:16px;
+    height:16px;
+    background:url(closea.png) no-repeat;
+    background-size:100%;
+    float:right; margin-left:10px; margin-top:7.5px;
+}
+#tabs li a.remove:hover {
+    width:16px;
+    height:16px;
+    background:url(close.png) no-repeat;
+    background-size:100%;
+}
+
+#content {
+    background-color: #e1e1e1;
+}
+
+#content p {
+    margin: 0;
+    padding: 20px 20px 100px 20px;
+}
+
+#main {
+    width: 900px;
+    margin: 0px auto;
+    overflow: hidden;
+    background-color: #F6F6F6;
+    margin-top: 20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 30px;
+}
+
+#wrapper, #doclist {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+#doclist {
+    width: 150px;
+    border-right: solid 1px #dcdcdc;
+}
+
+#doclist ul {
+    margin: 0;
+    list-style: none;
+}
+
+#doclist li {
+    margin: 10px 0;
+    padding: 0;
+}
+
+#documents {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    bottom: 0;
+    left: 181px;
+}
+
+#wrapper iframe {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+}
+
+#header {
+    background-color: #F6F6F6;
+    width: 900px;
+    margin: 0px auto;
+    margin-top: 20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 30px;
+    position: relative;
+}
+
+#header h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+

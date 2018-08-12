@@ -1,0 +1,298 @@
+/**前台样式**/
+body{
+    background-color: #ffffff;
+    margin: auto;
+    width: 100% ;
+}
+.main-botton{
+    float: left;
+    width: 100%;
+}
+/**登录**/
+.login-middle{
+    float: left;
+    width: 100%;
+    height: 895px;
+    margin: auto;
+    /*background-color: #000000;*/
+    background: url("/images/front/main1.jpg") no-repeat 100% 100%;
+}
+.advert-div{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 320px;
+    left: 220px;
+}
+.login-div{
+    float: right;
+    border: 1px #ffffff solid;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+    /*opacity: 0.5;*/
+    position: fixed;
+    top: 30%;
+    right: 100px;
+}
+.login-title{
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #01AAED;
+}
+.login-data{
+    margin: 15px;
+}
+.login-data input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.login-data img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 35px;
+}
+.data-name{
+    width: 250px;
+    height: 40px;
+    border: 1px #cdcdcd solid;
+    border-radius: 8px;
+    padding-left: 35px;
+    margin-right: 30px;
+    background-color:#FFF;
+}
+.data-pass{
+    width: 250px;
+    height: 40px;
+    border: 1px #cdcdcd solid;
+    border-radius: 8px;
+    padding-left: 35px;
+    margin-right: 30px;
+    background-color:#FFF;
+}
+.login-data .login-but{
+    width: 285px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 30px;
+    background-color: #01AAED;
+    text-align: center;
+}
+.login-data .login-but:hover{
+    cursor: pointer;
+}
+.login-help{
+    height: 30px;
+    text-align: right;
+    font-size: 14px;
+    padding-right: 60px;
+}
+.login-help a{
+    color: #cdcdcd;
+}
+.login-help a:hover{
+    color: #1296db;
+}
+.login-help a img{
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+}
+.login-help a span{
+    vertical-align: middle;
+}
+
+/**注册**/
+.register-middle{
+    float: left;
+    width: 100%;
+    height: 595px;
+    margin: auto;
+    background-color: #000000;
+    color: #ffffff;
+}
+.register-info{
+    width: 520px;
+    margin: auto;
+    padding-top: 150px;
+}
+.info-div{
+    height: 30px;
+    margin: 20px;
+}
+.info-div span{
+    color: #ffffff;
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    font-size: 18px;
+    text-indent: 2px;
+}
+.info-div a{
+    color: #ffffff;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+.info-div a:hover{
+    color: #01AAED;
+    border-bottom: 1px #01AAED solid;
+}
+.info-div a span{
+    font-size: 18px;
+}
+.info-data{
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.info-code{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.info-figure{
+    height: 30px;
+    width: 80px;
+}
+.info-sync{
+    width: 15px;
+    height: 15px;
+    line-height: 30px;
+}
+.but-div{
+    margin-top: 30px;
+}
+.info-but{
+    width: 240px;
+    height: 30px;
+    margin-left: 100px;
+    border: none;
+    letter-spacing: 30px;
+    text-align: center;
+    background-color: #01AAED;
+}
+
+/**个人主页**/
+.main-middle{
+    height: 895px;
+}
+.main-div{
+    float: left;
+}
+.main-menu{
+    width: 180px;
+    height: 100%;
+    padding-bottom: 30px;
+    z-index: 999;
+    position:absolute;
+    top: 80px;
+    left: 0px;
+    background-color: #000000;
+}
+.user-menu{
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.user-menu:hover{
+    cursor: pointer;
+}
+.menu-div{
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.menu-div:hover{
+    background-color: #515151;
+    cursor: pointer;
+}
+.main-menu div img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -2px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.main-page{
+    width: 100%;
+    height: 100%;
+}
+.page-div{
+    height: 100%;
+    padding-left: 95px;
+}
+.main-iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/**快捷登录**/
+.quick-middle{
+    width: 100%;
+    height: 100%;
+    background-color: #e6e6e6;
+    padding: 20px 0px;
+}
+.quick-div{
+    border: 1px #ffffff solid;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

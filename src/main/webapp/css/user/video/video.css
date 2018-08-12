@@ -1,0 +1,21 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.video-h{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.video-title{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.video-organ{
+    width: 70%;
+    margin: auto;
+}
